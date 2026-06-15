@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+
+[data-theme="light"] {
+  --background-primary: #ffffff;
+  --foreground: #000000;
+  --text-primary: #000000;
+  --text-secondary: #333333;
+  --border-color: #333333;
+  --accent-color: #05DF72;
+}
+
+[data-theme="dark"] {
+  --background-primary: #090e12;
+  --foreground: #ededed;
+  --text-primary: #ffffff;
+  --text-secondary: #333333;
+  --border-color: #333333;
+  --accent-color: #05DF72;
+}
